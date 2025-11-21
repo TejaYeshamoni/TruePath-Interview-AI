@@ -14,7 +14,7 @@ const Dashboard = () => {
         <div className="main-content">
           <header>
             <h2>
-              Hi, {user.name} welcome to <span className="font-bold">Interview.io</span>
+              Hi, {user.name} welcome to <span className="font-bold">TruePath Interview AI</span>
             </h2>
           </header>
 

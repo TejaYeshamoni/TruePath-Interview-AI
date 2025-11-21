@@ -35,7 +35,7 @@ const Sidebar = () => {
         <Tooltip anchorSelect='#Minimize' place='right' content='Minimize the Sidebar' />
         <Tooltip anchorSelect='#Maximize' place='right' content='Maximize the Sidebar' />
         
-        <h1 className={`logo`}>{isOpen ? "Interview.io" : ""}</h1>
+        <h1 className={`logo`}>{isOpen ? "TruePath Interview AI" : ""}</h1>
         <nav className={`menu ${isOpen ? '': 'gap-2'}`}>
           <ul>
             <li><Link to={'/'} ><i className="fas fa-home overview-icon"></i> {isOpen ? "Overview" : ""} </Link></li>
